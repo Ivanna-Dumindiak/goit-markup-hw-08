@@ -1,0 +1,43 @@
+/* Colors*/
+/* primary color #212121;*/
+/*secondary #757575 */
+
+
+
+body{
+
+}
+.list{
+    list-style: none;
+}
+
+
+
+
+.logo-blue {
+    color: #2196f3;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo-black {
+    color: black;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
