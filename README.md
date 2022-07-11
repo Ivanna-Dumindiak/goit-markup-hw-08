@@ -7,7 +7,6 @@ Repository name
 goit-markup-hw-03
 ```
 
-You can review cite [here](https://ivanna-dumindiak.github.io/goit-markup-hw-03/)
+You can review site [here](https://ivanna-dumindiak.github.io/goit-markup-hw-03/)
 
 ## Enjoy :) 
-
