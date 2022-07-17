@@ -13,6 +13,7 @@
     --color-blue: #2196f3;
 
     --portfolio-item-border-color: #eeeeee;
+    --protfolio-border-color: #ececec;
 }
 
 /* --- Global --- */
@@ -26,7 +27,9 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -61,7 +64,7 @@ img {
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -165,18 +168,16 @@ img {
     background-color: var(--primary-background-color-dark);
     align-items: center;
     padding-top: 60px;
-}
-.footer-address {
-    margin: 0;
     padding-bottom: 60px;
 }
 
 .footer-address-list {
     display: block;
     padding-top: 20px;
-    margin: 0;
-    padding-left: 0;
-    gap: 9px;
+    margin-bottom: 9px;
+}
+.footer-address-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .footer-address-link {
@@ -207,7 +208,7 @@ img {
     top: 80px;
 }
 .intro-container {
-    padding: 200px 452px 210px 452px;
+    padding: 200px 0 200px 0;
     text-align: center;
 }
 
@@ -302,7 +303,7 @@ img {
 .team-list {
     display: flex;
     gap: 30px;
-    padding-top: 50px;
+    margin-top: 50px;
     justify-content: center;
 }
 .team-item {
@@ -353,11 +354,20 @@ img {
 }
 
 /* --- portfolio page --- */
+.border {
+    border-bottom: 1px solid var(--protfolio-border-color);
+}
+
+.hero {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .hero-list {
     display: flex;
     gap: 8px;
     justify-content: center;
-    padding-bottom: 56px;
+    margin-bottom: 56px;
 }
 
 .portfolio-hero-btn {
@@ -399,8 +409,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
-    padding: 0;
-    padding-bottom: 94px;
 }
 .portfolio-item {
     background-color: var(--primary-background-color-white);
@@ -414,7 +422,7 @@ img {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding: 20px 24px 4px 24px;
+    margin-bottom: 4px;
 }
 .portfolio-description {
     color: var(--secondary-text-color);
@@ -423,8 +431,8 @@ img {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    padding: 0 24px 20px 24px;
 }
 .portfolio-card {
+    padding: 20px 24px;
     border: 1px solid var(--portfolio-item-border-color);
 }
