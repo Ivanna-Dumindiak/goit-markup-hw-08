@@ -262,7 +262,7 @@ img {
     border-radius: 50%;
 }
 .footer-social-link:hover,
-.footer-address-link:focus {
+.footer-social-link:focus {
     color: var(--common-white);
     background-color: var(--color-blue);
 }
@@ -279,9 +279,10 @@ img {
 .intro-container {
     padding: 200px 0 200px 0;
     text-align: center;
-    width: 1600px;
+    max-width: 1600px;
     background: rgba(47, 48, 58, 0.4);
     background-image: url(../images/Img.jpg);
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -479,9 +480,14 @@ img {
 }
 .clients-title {
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--primary-text-color-dark);
     margin-bottom: 50px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 }
 
 .clients-list {
@@ -575,6 +581,11 @@ img {
     background-color: var(--primary-background-color-white);
     list-style: none;
     margin: 15px;
+}
+.portfolio-item:hover,
+.portfolio-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-title {
     color: var(--primary-text-color-dark);
