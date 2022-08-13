@@ -788,7 +788,7 @@ img {
 
 .modal {
     position: absolute;
-    width: 582px;
+    width: 528px;
     height: 581px;
     top: 50%;
     left: 50%;
@@ -813,6 +813,11 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background: #ffffff;
     cursor: pointer;
+}
+
+.modal-btn:hover .modal-btn-icon,
+.modal-btn:focus .modal-btn-icon {
+    fill: var(--color-blue);
 }
 
 .modal-form {
@@ -981,6 +986,11 @@ img {
 
     width: 200px;
     height: 50px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
