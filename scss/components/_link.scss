@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+    color: var(--primary-background-color-dark);
+    transition: color var(--anim-cubic);
+
+    &:focus,
+    &:hover {
+        color: var(--primary-text-color-dark);
+    }
+}

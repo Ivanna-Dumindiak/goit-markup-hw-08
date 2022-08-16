@@ -1,0 +1,92 @@
+.team {
+    background-color: var(--team-backgound-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.team__list {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.team__title {
+    color: var(--primary-text-color-dark);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team__item {
+    background-color: var(--primary-background-color-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.member__info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.member__title {
+    color: var(--primary-text-color-dark);
+
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 10px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.member__description {
+    color: var(--secondary-text-color);
+
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 16px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.member__socials-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.member__social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+
+    color: var(--social-icon-primary-color);
+    background-color: var(--primary-background-color-white);
+    border-radius: 50%;
+    transition: background-color var(--anim-cubic), color var(--anim-cubic);
+
+    &:hover,
+    &:focus {
+        color: var(--common-white);
+        background-color: var(--color-blue);
+    }
+}
+
+.member__social-icon {
+    display: inline-block;
+    max-height: 40;
+    fill: currentColor;
+}

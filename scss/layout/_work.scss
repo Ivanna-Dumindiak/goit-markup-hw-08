@@ -1,0 +1,27 @@
+.work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &__list {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    &__item {
+        position: relative;
+    }
+
+    &__title {
+        color: var(--primary-text-color-dark);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+}
