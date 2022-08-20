@@ -1,5 +1,9 @@
 .logo {
-    margin-right: 93px;
+    display: inline-block;
+
+    @media screen and (min-width: 1200px) {
+        margin-right: 93px;
+    }
 
     &__blue {
         color: var(--color-blue);

@@ -31,10 +31,17 @@
 }
 
 .checkbox__text {
-    font-size: 14px;
+    font-size: 12px;
     user-select: none;
     text-underline-position: under;
     color: #757575;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.7;
+    }
 }
 
 .checkbox__link {

@@ -1,7 +1,30 @@
 .header {
     background-color: var(--primary-background-color-white);
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+    }
 }
 .header__container {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+        margin-left: 0;
+        margin-right: auto;
+    }
+}
+.header__button {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    background: var(--common-white);
+    border: none;
+
+    justify-content: right;
+    display: flex;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
 }

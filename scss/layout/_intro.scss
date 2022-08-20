@@ -1,8 +1,13 @@
 .intro {
-    padding: 200px 0 200px 0;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     max-width: 1600px;
     margin: 0 auto;
+    padding: 118px 0 118px 0;
     background-image: linear-gradient(
             to right,
             rgba(47, 48, 58, 0.4),
@@ -10,20 +15,29 @@
         ),
         url(../images/Img.jpg);
     background-color: var(--primary-background-color-dark);
-    top: 80px;
+
+    @media screen and (min-width: 1200px) {
+        padding: 200px 0 200px 0;
+    }
 }
 
 .intro__title {
     color: var(--primary-text-color-white);
     font-style: normal;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+
+    font-size: 26px;
+    line-height: 1.61;
 
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 44px;
+        line-height: 1.36;
+    }
 }
 .intro__btn {
     color: var(--primary-text-color-white);

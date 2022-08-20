@@ -1,6 +1,5 @@
 .work {
     padding-top: 94px;
-    padding-bottom: 94px;
 
     &__list {
         display: flex;
@@ -23,5 +22,9 @@
         letter-spacing: 0.03em;
         margin-bottom: 50px;
         align-items: center;
+    }
+
+    @media screen and (max-width: 1200px) {
+        display: none;
     }
 }
