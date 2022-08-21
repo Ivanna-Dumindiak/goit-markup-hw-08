@@ -3,6 +3,7 @@
 
     @media screen and (max-width: 768px) {
         display: flex;
+        flex-wrap: wrap;
     }
 }
 .header__container {
@@ -12,12 +13,12 @@
     @media screen and (max-width: 768px) {
         margin-left: 0;
         margin-right: auto;
+        height: 60px;
     }
 }
 .header__button {
     display: block;
-    margin-left: auto;
-    margin-right: 0;
+    margin: auto 0;
     background: var(--common-white);
     border: none;
 
