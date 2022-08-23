@@ -172,6 +172,7 @@ li {
 }
 
 .container {
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -413,7 +414,7 @@ main.is-open {
   -webkit-transform: translate(-50%, -50%) scale(0.02);
           transform: translate(-50%, -50%) scale(0.02);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .modal {
     width: 450px;
   }
@@ -561,36 +562,6 @@ main.is-open {
   letter-spacing: 0.02em;
 }
 
-.menu__socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 10px;
-}
-
-.menu__socials-item:not(:last-child) .menu__socials-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-right: 10px;
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
-}
-
-.menu__socials-item:not(:first-child) {
-  padding-left: 10px;
-}
-
-.menu__socials-link {
-  color: var(--color-blue);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0.02em;
-}
-
 .menu__contact-list {
   display: block;
   margin-bottom: 64px;
@@ -629,6 +600,35 @@ main.is-open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+}
+
+.menu__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+}
+
+.menu__socials-item:not(:last-child) .menu__socials-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.menu__socials-link {
+  color: var(--color-blue);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
 }
 
 .about {
@@ -1088,7 +1088,7 @@ main.is-open {
   }
 }
 .footer__subscribe-input {
-  width: 358px;
+  width: 100%;
   height: 50px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1139,15 +1139,11 @@ main.is-open {
 
 .header {
   background-color: var(--primary-background-color-white);
-}
-@media screen and (max-width: 768px) {
-  .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .header__container {
@@ -1157,13 +1153,6 @@ main.is-open {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-@media screen and (max-width: 768px) {
-  .header__container {
-    margin-left: 0;
-    margin-right: auto;
-    height: 60px;
-  }
 }
 
 .header__button {

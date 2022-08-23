@@ -67,12 +67,12 @@
                         </a>
                     </li>
                 </ul>
+                <button class="header__button" type="button" data-menu-open>
+                    <svg class="icon" width="40" height="40">
+                        <use href="./images/icons.svg#menu-button"></use>
+                    </svg>
+                </button>
             </div>
-            <button class="header__button" type="button" data-menu-open>
-                <svg class="icon" width="40" height="40">
-                    <use href="./images/icons.svg#menu-button"></use>
-                </svg>
-            </button>
         </header>
 
         <main>
@@ -956,7 +956,7 @@
         <div class="menu-overlay is-open" data-menu>
             <div class="menu-container">
                 <button class="menu-button" type="button" data-menu-close>
-                    <svg class="icon" width="40" height="40">
+                    <svg class="menu-icon" width="40px" height="40px">
                         <use href="./images/icons.svg#menu-close"></use>
                     </svg>
                 </button>
@@ -974,12 +974,10 @@
                         >
                     </li>
                     <li class="menu__item item">
-                        <a class="mobile__link link" href="#contacts"
-                            >Контакти</a
-                        >
+                        <a class="menu__link link" href="#contacts">Контакти</a>
                     </li>
                 </ul>
-                <ul class="menu__contact-list">
+                <ul class="menu__contact-list list">
                     <li class="menu__contact-item">
                         <a
                             class="menu__contact-phone link"
@@ -995,7 +993,7 @@
                         >
                     </li>
                 </ul>
-                <ul class="menu-socials-list list">
+                <ul class="menu__socials-list list">
                     <li class="menu__socials-item">
                         <a
                             class="menu__socials-link link"

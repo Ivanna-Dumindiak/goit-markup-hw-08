@@ -1,20 +1,17 @@
 .header {
     background-color: var(--primary-background-color-white);
-
-    @media screen and (max-width: 768px) {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    display: flex;
+    flex-wrap: wrap;
 }
 .header__container {
     display: flex;
     align-items: center;
 
-    @media screen and (max-width: 768px) {
-        margin-left: 0;
-        margin-right: auto;
-        height: 60px;
-    }
+    // @media screen and (max-width: 768px) {
+    //     margin-left: 0;
+    //     margin-right: auto;
+    //     height: 60px;
+    // }
 }
 .header__button {
     display: block;

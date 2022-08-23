@@ -175,7 +175,7 @@
     }
 
     &__subscribe-input {
-        width: 358px;
+        width: 100%;
         height: 50px;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -190,6 +190,9 @@
         color: var(--common-white);
         background-color: transparent;
         transition: border var(--anim-cubic);
+
+        @media screen and (min-width: 1200px) {
+        }
     }
 
     &__subscribe-btn {
