@@ -209,6 +209,12 @@ li {
 .logo {
   display: inline-block;
 }
+@media screen and (max-width: 768px) {
+  .logo {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .logo {
     margin-right: 93px;
@@ -1103,6 +1109,11 @@ main.is-open {
   background-color: transparent;
   -webkit-transition: border var(--anim-cubic);
   transition: border var(--anim-cubic);
+}
+@media screen and (min-width: 768px) {
+  .footer__subscribe-input {
+    width: 358px;
+  }
 }
 .footer__subscribe-btn {
   width: 200px;

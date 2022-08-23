@@ -191,7 +191,8 @@
         background-color: transparent;
         transition: border var(--anim-cubic);
 
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 768px) {
+            width: 358px;
         }
     }
 
